@@ -1,0 +1,41 @@
+@import "../../Common_css/Theme.scss";
+
+.about {
+  h2 {
+    color: $white;
+    text-align: center;
+    font-size: 4.4rem;
+    font-weight: 700;
+    margin-top: 8rem;
+    line-height: 6rem;
+  }
+  p {
+    color: $white;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-top: 4rem;
+    line-height: 2.4rem;
+  }
+
+  .counter {
+    display: flex;
+    column-gap: 20rem;
+    justify-content: center;
+    margin: 10rem;
+
+    .counter-text {
+      font-size: 6.6rem;
+      font-weight: 700;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .about {
+    .counter {
+      grid-column-gap: 0rem;
+      margin: 2rem;
+    }
+  }
+}

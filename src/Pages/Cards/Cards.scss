@@ -1,0 +1,41 @@
+@import "../../Common_css/Theme.scss";
+
+.earining-heading {
+  font-size: 4.4rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 6rem;
+  margin-top: 15rem;
+  margin-bottom: 7rem;
+}
+
+.cards {
+  box-shadow: 0px 0px 10px 0px $dark-shadow;
+  height: 38rem;
+  text-align: center;
+  width: 38rem;
+  padding: 4rem;
+  h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 6rem;
+  }
+  p {
+    color: $Cultured-color;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+    margin: 3rem 0rem;
+  }
+  button {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .cards {
+    box-shadow: 0px 0px 10px 0px $dark-shadow;
+    width: auto;
+    height: auto;
+  }
+}

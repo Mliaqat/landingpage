@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(10rem, auto);
+  align-items: center;
+  margin-top: 8rem;
+  div {
+    text-align: center;
+  }
+
+  svg {
+    width: 2em;
+    height: 2em;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 4rem;
+  }
+}
